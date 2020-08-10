@@ -28,7 +28,7 @@
         "sensiolabs/security-checker": "^6.0"
     },
     "require-dev": {
-        "internations/testing-component": "1.3.0",
+        "internations/testing-component": "1.3.4",
         "phpunit/phpunit": "^7"
     },
     "autoload": {
