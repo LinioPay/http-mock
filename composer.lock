@@ -579,24 +579,23 @@
         },
         {
             "name": "lstrojny/hmmmath",
-            "version": "0.7.1",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lstrojny/hmmmath.git",
-                "reference": "031e4049042a28798fa49b756ebbb46b1297ef3e"
+                "reference": "8e562c70f89b5580ed99674b849e3587b52f704b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lstrojny/hmmmath/zipball/031e4049042a28798fa49b756ebbb46b1297ef3e",
-                "reference": "031e4049042a28798fa49b756ebbb46b1297ef3e",
+                "url": "https://api.github.com/repos/lstrojny/hmmmath/zipball/8e562c70f89b5580ed99674b849e3587b52f704b",
+                "reference": "8e562c70f89b5580ed99674b849e3587b52f704b",
                 "shasum": ""
             },
             "require": {
-                "php": "~7.1"
+                "php": "^7.2|^8.0"
             },
             "require-dev": {
-                "internations/testing-component": "dev-master",
-                "phpunit/phpunit": "~6"
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "autoload": {
@@ -615,7 +614,11 @@
                 }
             ],
             "description": "Collection of math related PHP functions",
-            "time": "2018-12-09T15:54:49+00:00"
+            "support": {
+                "issues": "https://github.com/lstrojny/hmmmath/issues",
+                "source": "https://github.com/lstrojny/hmmmath/tree/0.8.0"
+            },
+            "time": "2020-12-17T11:21:54+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -3865,5 +3868,6 @@
         "php": "~7.2",
         "ext-json": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
